@@ -59,6 +59,7 @@ A4 --> SDA <br />
 2. This is what the host computer’s Bluetooth settings should look like. ![image](https://user-images.githubusercontent.com/111996917/209395997-bb47eaea-6335-4519-9b7e-17dbdfb8f434.png)
 <br />
 
-3. The most efficient/fastest way to send files is through the VNC server’s file transfer system. Right click the VNC viewer icon on the Raspberry Pi VNC viewer. Then select File Transfer and select the steps to select your file and it’s destination on the local computer. <br />
+3. The most efficient/fastest way to send files is through the VNC server’s file transfer system. Right click the VNC viewer icon on the Raspberry Pi VNC viewer. Then select File Transfer and select the steps to select your file and it’s destination on the local computer. ![image](https://user-images.githubusercontent.com/111996917/209396050-a51a3bcf-8b9c-458a-816d-13ee47700edd.png)
+<br />
 
 If you get stuck along the way, follow these steps:  https://youtu.be/JZveSiTlq1U <br />
