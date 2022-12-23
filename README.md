@@ -1,7 +1,7 @@
 # 9DoF_IMU
 Interfaced Arduino with Adafruit BNO055 9DoF IMU and Raspberry Pi to create a mobile IMU sensor that records rotations in roll, pitch and yaw. Project was for work to be used as part of a larger project.
 
-# How to set-up/use the IMU Build #
+## How to set-up/use the IMU Build ##
 
 Materials: <br />
 
@@ -23,7 +23,7 @@ Materials: <br />
 
 --> Monitor, Keyboard, Mouse optional. <br />
 
-# Set-Up #
+## Set-Up ##
 
 Arduino to BNO055 pin-out: (the IMU has already been soldered to the breadboard)<br />
 
@@ -53,7 +53,7 @@ A4 --> SDA <br />
 
 6. The main purpose of the python script is to automate recording the serial output from the arduino to a csv. It also allows for keyboard interruption to stop the script from running at a specific time. <br />
 
-# Send Files # 
+## Send Files ## 
 1. Once there is a file of values (either a text file or csv), use the send files over Bluetooth feature to transfer the file from the raspberry pi (on VNC Viewer) to the host computer. Could do this by logging into Google Drive via Chromium and uploading the file there. Alternatively send the file via Bluetooth to the host computer. First connect your computer to the raspberry pi in Bluetooth settings/Bluetooth manager.  Then right click on the device and click ‘Send Files to Device’, while also opening the Bluetooth settings on the host computer and enabling receive files. <br /> 
 
 2. This is what the host computer’s Bluetooth settings should look like. ![image](https://user-images.githubusercontent.com/111996917/209395997-bb47eaea-6335-4519-9b7e-17dbdfb8f434.png)
